@@ -32,26 +32,36 @@
             height: 4px;
             border: 0;
         }
-        section h1{
-            margin-top: 100px;
-            text-align: center;
-            font-size: 40px;
-        }
-        section div{
-            margin-left:85vh;
+        
+        section{
+            display:  flex;
+            justify-content: center;
+            align-itens:center;
             margin-top: 100px;
         }
         body{
             background-color: rgba(153, 118, 42, 0.836);
         }
+
+        h1 {
+            margin-top:80px;
+            display:flex;
+            justify-content: center;
+            align-itens: center;
+            color:black;
+            font-size:50px;
+        }
     </style>
 </head>
 
 <body>
+        <h1> Doom Fire </h1>
+    
     <section>
-        <h1>Doom Fire </h1>
+        <div id="doom-fire">
         <div id="fireCanvas"></div>
-        <script src="fire.js"></script>
+        <script src="./src/fire.js"></script>
+        </div>
     </section>
 </body>
 
