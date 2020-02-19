@@ -1,2 +1,2 @@
 # Doom-Fire
-using pure javascript to program doom fire
+using pure javascript to program doom fire effect
